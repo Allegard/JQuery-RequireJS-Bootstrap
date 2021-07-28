@@ -226,14 +226,14 @@
   <!--div class="container-fluid pb-3"></div-->
   <div class="container-fluid pb-3">
     <!--div class="d-grid gap-3" style="grid-template-columns: 1fr 2fr;"></div-->
-    <div class="row gap-3 themed-grid-row" style="grid-template-columns: 1fr 2fr;">
-      <div class="col bg-light border rounded-3">
-        <img src="C:\Users\anof\OneDrive - GFT Technologies SE\Desktop\bootstrap-5.0.2-examples\headers\300-gft.png" alt="GFT" width="500" height="500">
+    <div class="row themed-grid-row" style="grid-template-columns: 1fr 2fr;">
+      <div class="col-md-6">
+        <img src="C:\Users\anof\OneDrive - GFT Technologies SE\Desktop\bootstrap-5.0.2-examples\headers\300-gft.png" alt="GFT" width="500" height="500" class="img-fluid">
       </div>
-      <div class="col bg-light border rounded-3">
+      <div class="col">
         <main class="form-signin" id="sing-login">
           <form>
-            <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+            <!--img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"-->
             <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
         
             <div class="form-floating">
@@ -362,7 +362,6 @@
         e.hide("sing-login");
         alert("clicked");
     })*/
-    floatingInput
     $(document).ready(function(){
 	  $('#login').click(function(){
   		$('#floatingInput').html('');
